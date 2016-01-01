@@ -11,8 +11,12 @@ public class Permutation {
 		
 		else{
 			
-			sort(s1).equals(sort(s2));
+			if(sort(s1).equals(sort(s2)));
 			flag = 1;
+			
+				if(!sort(s1).equals(sort(s2)))
+					flag=-1;
+			
 			
 		}
 		
@@ -30,7 +34,7 @@ public class Permutation {
 	public static void main(String args[])
 	{
 		Permutation p = new Permutation();
-		int ans = p.permut("Fish", "FshIjj");
+		int ans = p.permut("Fiskh", "FshIj");
 		
 		if(ans == 1)
 		{

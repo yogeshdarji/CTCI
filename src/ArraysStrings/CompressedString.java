@@ -4,7 +4,7 @@ public class CompressedString {
 
 	public String compressed(String s)
 	{
-		//char c[]=new char[100];
+	
 		int count=1;
 		String ans ="";
 		char last = s.charAt(0);

@@ -2,6 +2,7 @@ package ArraysStrings;
 
 public class UniqueChars {
 
+//Check for unique ones
 	static int isUnique(String s)
 	{
 		
